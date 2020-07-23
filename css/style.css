@@ -1,0 +1,8 @@
+body.bg {
+    background-color: rgb(240, 210, 171);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.align {
+    text-align: justify;
+}

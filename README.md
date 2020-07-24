@@ -1,5 +1,5 @@
 # Full-Stack-1
-**this repository contains the list of practicals performed During learning Front end of Fullstack**
+**this repository contains the list of practicals performed During learning Front end**
 <br>
 [https://shsarv.github.io/Full-Stack-1/](https://shsarv.github.io/Full-Stack-1/)
 
@@ -18,4 +18,3 @@
 
 
 5.[introduction to image link and image map.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical5.html)
-

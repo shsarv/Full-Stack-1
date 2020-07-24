@@ -7,50 +7,6 @@
     <title>My progress</title>
     <link href="../css/style.css" rel="stylesheet " type="text/css ">
     <style>
-        ul {
-            list-style-type: none;
-            margin: 0px 30px 2px 30px;
-            padding: 0px 0px 0px 0px;
-            overflow: hidden;
-            background-color: rgb(92, 90, 90);
-            border: 8px solid white;
-        }
-        
-        li {
-            float: left;
-            width: 16.666666%;
-        }
-        
-        li:not(:last-child) {
-            position: relative;
-        }
-        
-        li:not(:last-child)>a:after {
-            content: "";
-            height: 25px;
-            width: 3px;
-            background: white;
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 50%;
-            margin-top: -10px;
-        }
-        
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 12px 0px 10px 0px;
-            text-decoration: solid;
-            font-weight: bold;
-            font-size: large;
-        }
-        
-        li a:hover {
-            background-color: #111;
-        }
-        
         h2 {
             color: white;
             text-align: center;
@@ -71,27 +27,31 @@
 </head>
 
 <body class="bg">
-    <div style=" padding: 2px; ">
-        <ul>
-            <li><a class="active " href="# ">HOME</a></li>
-            <li><a href="practical1.html " target="BLANK ">PRACTICAL-1</a></li>
-            <li>
-                <a href="practical2.html " target="BLANK ">PRACTICAL-2</a>
-            </li>
-            <li>
-                <a href="practical3.html " target="BLANK ">PRACTICAL-3</a>
-            </li>
-            <li><a href="practical4.html " target="BLANK ">PRACTICAL-4</a></li>
-            <li><a href="# " target="BLANK ">PRACTICAL-5</a></li>
-        </ul>
+    <div>
+        <img src="../img/index.jpg" alt="index images" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="7,9,203,67" alt="practical1" href="../index.html" target="blank">
+            <area shape="rect " coords="213,9,405,67 " alt="practical-1 " href="practical1.html " target="blank ">
+            <area shape="rect " coords="416,9,608,67 " alt="practical-2 " href="practical2.html " target="blank ">
+            <area shape="rect " coords="619,9,810,67 " alt="practical-3 " href="practical3.html" target="blank ">
+            <area shape="rect " coords="821,9,1014,67 " alt="practical-4 " href="practical4.html " target="blank ">
+            <area shape="rect " coords="1024,9,1223,67 " alt="practical-5 " href="# " target="blank ">
+        </map>
     </div>
     <div>
         <h2>Introduction to Front-End Techonologies</h2>
     </div>
     <div>
-        <img src="../img/Practical-5.jpg " alt="logo images ">
+        <img src="../img/Practical-5.jpg" alt="logo images" usemap="#mymap">
+        <map name="mymap">
+            <area shape="rect" coords="17,9,173,167" alt="html5" href="practical5-html5.html" target="blank">
+            <area shape="circle" coords="287,94,95" alt="html5" href="css3.html" target="blank">
+            <area shape="rect" coords="23,196,170,337" alt="html5" href="jsc.html" target="blank">
+            <area shape="poly" coords="231,223,89,203,346,223,337,300,288,328,239,301" alt="html5" href="boot.html" target="blank">
+
+        </map>
     </div>
-    <div class="r ">
+    <div class="r">
         Click on any part of the logo to know more about these techonologies
     </div>
 </body>

@@ -1,7 +1,11 @@
 # Full-Stack-1
 **this repository contains the list of practicals performed During learning Front end**
-<br>
+
+
+
 [https://shsarv.github.io/Full-Stack-1/](https://shsarv.github.io/Full-Stack-1/)
+
+
 
 ## list of practicals:
 

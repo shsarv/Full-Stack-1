@@ -21,4 +21,7 @@
 4.  [Create a Website having list of all practical and their individual practical Page links](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical4.html)
 
 
-5.  [introduction to image link and image map.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical5.html)
+5.  [Introduction to image link and image map.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical5.html)
+
+
+6.  [Create some layout using CSS Layout properties](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical6.html)

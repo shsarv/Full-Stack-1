@@ -7,31 +7,69 @@
     <title>Introduction to CSS3</title>
     <link href="../css/style.css" rel="stylesheet " type="text/css ">
     <style>
-        .align {
-            text-align: justify;
-            background-color: gray;
+        img {
+            border-radius: 15px;
+            border: yellow 10px solid;
+            width: 100%;
+        }
+        
+        #cs {
+            width: 40%;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #foot {
+            text-align: center;
+        }
+        
+        #foot2 {
+            text-align: center;
+        }
+        
+        a {
+            font-size: larger;
+            font-weight: bold;
+            color: blue;
+        }
+        
+        #txt {
+            text-align: center;
+            width: 90%;
+            background-color: rgb(46, 45, 45);
             color: white;
             font-weight: normal;
-            font-size: large;
+            font-size: medium;
+            margin: auto;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
         }
     </style>
 </head>
 
 <body class="bg">
-    <div>
+    <div id="cs">
         <a href="#"><img src="../img/css3.jpg" alt="HTML image" style="display: block;margin-left: auto;margin-right: auto;"></a>
     </div>
-    <div>
-        <p class="align">Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable. CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text,
-            the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.
-            CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML. </p>
+    <div id="foot">
+        <p id="txt">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed
+            to enable the separation of presentation and content, including layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable
+            multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between
+            the pages that share the file and its formatting. Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based
+            browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.The name cascading comes from the specified priority scheme to determine which style
+            rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable. The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered
+            for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents. </p>
     </div>
-    <div>
-        <a href="practical5.html">
+    <div id="foot2">
+        <a href=" practical5.html ">
                 Click here to return to previous page
         </a>
         <br><br>
-        <a href="../index.html">
+        <a href="../index.html ">
             Click here to return to Home page
     </a>
     </div>

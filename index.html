@@ -7,60 +7,211 @@
     <title>My learning progress Index || Sarvesh Sharma</title>
     <link href="css/style.css" rel="stylesheet " type="text/css ">
     <style>
-        a {
-            font-size: medium;
-            font-weight: bolder;
-            text-decoration: underline;
+        body {
+            background-image: url(img/background.jpg);
+            color: white;
+            text-align: justify;
+            font-size: large;
         }
         
-        a:hover {
-            color: tomato;
+        .yellow {
+            color: orange;
+        }
+        
+        #mainbackground {
+            background-color: rgb(22, 21, 21, 0.8);
+            width: 97%;
+            height: 100%;
+            margin: 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .firstheading {
+            font-size: larger;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            color: orange;
+            margin: 0px;
+            padding-top: 10px
+        }
+        
+        .secondheading {
+            margin: 15px;
+            font-weight: bold;
+            font-size: larger;
+            font-style: normal;
+            font-family: sans-serif;
+        }
+        
+        .firstpara {
+            background-color: rgb(43, 41, 41, 0.8);
+            margin: 5px;
+            border: rgb(37, 37, 37) solid 10px;
+            padding: 10px;
+            padding-left: 15px;
+        }
+        
+        a {
+            color: white;
             text-decoration: none;
         }
         
-        a :visited {
-            color: rgb(91, 7, 139);
+        .container {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            border: rgb(31, 28, 28) solid 5px;
+            border-radius: 10px;
         }
         
-        a :active {
-            color: blue
+        .container:hover {
+            background-color: rgb(31, 26, 26, 0.7);
         }
         
-        h1 {
-            color: green;
+        .container ul {
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        ul li::before {
+            content: "\2022";
+            color: orange;
+            font-weight: bolder;
+            font-size: larger;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        .container li a {
+            text-decoration: none;
+            background-color: red;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 15px;
+            color: white;
+            padding: 10px;
+            width: auto;
+        }
+        
+        .container li {
+            margin: 10px;
+            padding: 15px;
+            font-size: large;
+        }
+        
+        .container li:hover {
+            transition: transform 1s;
+            background-color: black;
+            border-radius: 20px;
+            color: white;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        .container a:hover {
+            background-color: blue;
+            color: white;
+            transition: 2s;
+        }
+        
+        .popup {
+            background-color: rgb(27, 124, 216);
+            border: 3px solid gray;
+            border-radius: 20px;
+            padding: 0;
+            width: auto;
+            animation: movement 5s linear infinite;
+            margin: 10px;
+            margin-left: -70px;
+            color: white;
             text-align: center;
-            text-decoration: greenyellow solid;
         }
         
-        h3 {
-            color: red;
+        @keyframes movement {
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+            30% {
+                transform: translate3d(10%, 0, 0);
+            }
+            60% {
+                transform: translate3d(30%, 0, 0);
+            }
+            100% {
+                transform: translate3d(90%, 0, 0);
+            }
         }
         
-        #tt {
-            margin-left: 5px;
-        }
-        
-        ol {
-            line-height: 40px;
+        footer {
+            background-color: rgb(22, 21, 21, 0.8);
+            text-align: center;
+            width: auto;
+            margin: 0;
+            padding: 20px;
+            border: rgb(63, 61, 61) solid 10px;
+            border-radius: 20px;
         }
     </style>
 </head>
 
-<body style="background-color: wheat;">
-    <h1>Welcome to Fullstack Course</h1>
-    <h3>About Course</h3>
-    <p id="tt">Front-end web development is everything involved in programming the user interface of a web application. Typically it refers to the Hyper text Markup Language(HTML), Cascading Style Sheets(CSS) and Java Script portion of web site production as opposed
-        to the database or server side programming. It encompasses everything from buliding a simple page of html text to creating complex,responsive HTML5 websites designed to be accessed via various different browsers , devices and screen sizes.
-    </p>
-    <h1 style="color: green;">List of Practicals</h1>
-    <ol type="1">
-        <li>Create a web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment &#8680;&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical1.html" target="blank">Practical-1</a></li>
-        <li>Live Your First Web-Page on Git-Hub.&#8680;&#8680;&#8680;&nbsp; &nbsp;<a href="Practicals/practical2.html">Practical-2</a></li>
-        <li>Create a web page showing a basic html structure using character Entities and Span Tag.&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical3.html" target="blank">Practical-3</a></li>
-        <li>Create a Website having list of all practical and their individual practical Page links. &#8680;&#8680;&#8680;&nbsp; &nbsp;<a href="Practicals/practical4.html" target="blank">Practical-4</a></li>
-        <li>Introduction to image link and image map. &#8680;&#8680;&#8680; &nbsp;&nbsp;<a href="Practicals/practical5.html " target="blank">Practical-5</a></li>
-        <li>Create Following layout using CSS Layout properties.&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical6.html " target="blank">Practical-6</a></li>
-    </ol>
+<body>
+    <div id="mainbackground">
+        <div class="firstheading">
+            <h1>Welcome to Fullstack Course</h1>
+        </div>
+        <div>
+            <h2 class="secondheading">
+                <span class="yellow">About</span> Course</h2>
+        </div>
+        <div class="firstpara">
+            <p>Front-end web development is everything involved in programming the user interface of a web application. Typically it refers to the Hyper text Markup Language(HTML), Cascading Style Sheets(CSS) and Java Script portion of web site production
+                as opposed to the database or server side programming. It encompasses everything from buliding a simple page of html text to creating complex,responsive HTML5 websites designed to be accessed via various different browsers , devices and
+                screen sizes.
+                <h3>
+                    <span class="yellow">Tools used for front-end development</span>
+                </h3> Here are several tools and platforms (wordpress, magento etc..) available that can be used to develop the front end of a website, and understanding which tools are best fit for specific tasks marks the difference between developing
+                a hacked site and a well designed, scalable site.
+                <br>
+                <h4>Hyper Text Markup Language
+                    <span class="yellow">(HTML)</span> </h4>
+                <h4>Cascading Style Sheets <span class="yellow">(CSS)</span>
+                </h4>
+                <h4>JavaScript<span class="yellow">(JS)</span>
+                </h4>
+                <h4>Bootstrap<span class="yellow">  &nbsp;4</span>
+                </h4>
+            </p>
+        </div>
+        <hr>
+        <div>
+            <h1 style="text-align: center;">
+                <span class="yellow">List of Practicals</span></h1>
+        </div>
+        <div class="popup">
+            <h2>
+                <a href="Practicals/practical6.html ">practical-6 is added. click here or check below </a></h2>
+        </div>
+        <div class="container ">
+            <ul>
+                <li>Create a web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment &#8680;&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical1.html " target="blank ">Practical-1</a></li>
+                <li>Live Your First Web-Page on Git-Hub.&#8680;&#8680;&#8680;&nbsp; &nbsp;<a href="Practicals/practical2.html ">Practical-2</a></li>
+                <li>Create a web page showing a basic html structure using character Entities and Span Tag.&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical3.html " target="blank ">Practical-3</a></li>
+                <li>Create a Website having list of all practical and their individual practical Page links. &#8680;&#8680;&#8680;&nbsp; &nbsp;<a href="Practicals/practical4.html " target="blank ">Practical-4</a></li>
+                <li>Introduction to image link and image map. &#8680;&#8680;&#8680; &nbsp;&nbsp;<a href="Practicals/practical5.html " target="blank ">Practical-5</a></li>
+                <li>Create Following layout using CSS Layout properties.&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical6.html " target="blank ">Practical-6</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <footer>
+        <h4>Copyright &copy; 2020</h4>
+        <h4>Created by Sarvesh Kumar Sharma in ❤️ with <span style="color: orange;">IN</span><span style="color: white;">D</span><span style="color: green;">IA</span></h4>
+    </footer>
+
 </body>
 
 </html>

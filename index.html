@@ -7,6 +7,11 @@
     <title>My learning progress Index || Sarvesh Sharma</title>
     <link href="css/style.css" rel="stylesheet " type="text/css ">
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
         body {
             background-image: url(img/background.jpg);
             color: white;
@@ -24,17 +29,21 @@
             height: 100%;
             margin: 0;
             padding: 20px;
-            border-radius: 10px;
+            /* border-radius: 10px; */
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
         }
         
         .firstheading {
             font-size: larger;
             font-weight: bold;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: center;
             color: orange;
-            margin: 0px;
-            padding-top: 10px
+            margin: 0px auto auto 10px;
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .secondheading {
@@ -153,7 +162,30 @@
             margin: 0;
             padding: 20px;
             border: rgb(63, 61, 61) solid 10px;
-            border-radius: 20px;
+            /* border-radius: 20px; */
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        
+        #right-sidebar {
+            width: 30%;
+            /* border: solid green; */
+            height: auto;
+            float: right;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+        }
+        
+        #left-sidebar {
+            width: 70%;
+            /* border: solid blue; */
+            /* height: 515px; */
+            float: left;
         }
     </style>
 </head>
@@ -171,9 +203,9 @@
             <p>Front-end web development is everything involved in programming the user interface of a web application. Typically it refers to the Hyper text Markup Language(HTML), Cascading Style Sheets(CSS) and Java Script portion of web site production
                 as opposed to the database or server side programming. It encompasses everything from buliding a simple page of html text to creating complex,responsive HTML5 websites designed to be accessed via various different browsers , devices and
                 screen sizes.
-                <h3><span class="yellow">Tools used for front-end development</span></h3>
-                <hr> Here are several tools and platforms (wordpress, magento etc..) available that can be used to develop the front end of a website, and understanding which tools are best fit for specific tasks marks the difference between developing a
-                hacked site and a well designed, scalable site.
+                <h3><span class="yellow" style="text-decoration: underline solid orange;">Tools used for front-end development</span></h3>
+                Here are several tools and platforms (wordpress, magento etc..) available that can be used to develop the front end of a website, and understanding which tools are best fit for specific tasks marks the difference between developing a hacked site and a
+                well designed, scalable site.
                 <br>
                 <h4>Hyper Text Markup Language
                     <span class="yellow">(HTML)</span> </h4>
@@ -190,11 +222,12 @@
             <h1 style="text-align: center;">
                 <span class="yellow">List of Practicals</span></h1>
         </div>
-        <div class="popup">
-            <h2>
-                <a href="Practicals/practical6.html ">practical-6 is added. click here or check below </a></h2>
-        </div>
+
         <div class="container ">
+            <div class="popup">
+                <h2>
+                    <a href="Practicals/practical7.html ">practical-7 is added. click here or check below </a></h2>
+            </div>
             <ul>
                 <li>Create a web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment &#8680;&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical1.html " target="blank ">Practical-1</a></li>
                 <li>Live Your First Web-Page on Git-Hub.&#8680;&#8680;&#8680;&nbsp; &nbsp;<a href="Practicals/practical2.html ">Practical-2</a></li>
@@ -202,13 +235,19 @@
                 <li>Create a Website having list of all practical and their individual practical Page links. &#8680;&#8680;&#8680;&nbsp; &nbsp;<a href="Practicals/practical4.html " target="blank ">Practical-4</a></li>
                 <li>Introduction to image link and image map. &#8680;&#8680;&#8680; &nbsp;&nbsp;<a href="Practicals/practical5.html " target="blank ">Practical-5</a></li>
                 <li>Create Following layout using CSS Layout properties.&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical6.html " target="blank ">Practical-6</a></li>
+                <li>Create a Web Page Layout using div tags.&#8680;&#8680;&#8680; &nbsp; &nbsp;<a href="Practicals/practical7.html " target="blank ">Practical-7</a></li>
             </ul>
-        </div>
 
+
+
+
+
+        </div>
     </div>
+
     <footer>
         <h4>Copyright &copy; 2020</h4>
-        <h4>Created by Sarvesh Kumar Sharma in ❤️ with <span style="color: orange;">IN</span><span style="color: white;">D</span><span style="color: green;">IA</span></h4>
+        <h4>Developed by <span style="color: orange;"> Sarvesh </span><span style="color: white;"> Kumar </span><span style="color: green;"> Sharma </span>❤️</h4>
     </footer>
 
 </body>

@@ -152,12 +152,12 @@ body {
 }
 
 .right-sidebar #column1 {
-    margin: 5px 10px 10px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../img/practical8/p1.jpg);
-    color: whitesmoke;
+    color: rgb(54, 6, 226);
     height: 50vh;
     border-radius: 2px;
     border: 1px solid black
@@ -176,12 +176,12 @@ body {
 }
 
 .right-sidebar #column3 {
-    margin: 10px 0px 0px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../img/practical8/p3.jpg);
-    color: whitesmoke;
+    color: rgb(54, 6, 226);
     height: 50vh;
     border-radius: 2px;
     border: 1px solid black

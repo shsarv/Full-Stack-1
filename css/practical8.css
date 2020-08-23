@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 15px 10px;
     /* width: 98vw; */
     margin-bottom: 20px;

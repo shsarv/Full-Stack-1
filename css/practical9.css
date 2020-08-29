@@ -84,12 +84,12 @@ html {
     color: #fff;
 }
 
-#circle-container {
+#sec1-container {
     width: 100%;
     margin: 15px auto;
 }
 
-#circle-container::after {
+#sec1-container::after {
     content: '';
     display: block;
     clear: both;
@@ -159,7 +159,7 @@ html {
 }
 
 #p2 {
-    background-image: url(../img/practical8/p2.jpg);
+    background-image: url(../img/practical8/p2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -310,10 +310,10 @@ h1 {
         margin: 20px 20px;
         color: #fff;
     }
-    #circle-container {
+    #sec1-container {
         width: 100%;
     }
-    #circle-container::after {
+    #sec1-container::after {
         content: '';
         display: block;
         clear: both;
@@ -500,10 +500,10 @@ h1 {
         margin: 10px 20px;
         color: #fff;
     }
-    #circle-container {
+    #sec1-container {
         width: 100%;
     }
-    #circle-container::after {
+    #sec1-container::after {
         content: '';
         display: block;
         clear: both;
@@ -662,7 +662,7 @@ h1 {
             color: #fff;
             font-size: 20px;
         }
-        #circle-container {
+        #sec1-container {
             width: 90%;
             margin-left: 10%;
         }
@@ -770,5 +770,33 @@ h1 {
             padding-top: 25px;
             padding-bottom: 15px;
         }
+    }
+}
+
+@media(min-width:1200px) {
+    #sec1-container {
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec1-container::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .circle img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: goldenrod;
+        float: left;
+        margin-left: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        /* margin-right: 3%; */
     }
 }

@@ -6,7 +6,7 @@
         
         body {
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(59, 53, 53);
+            color: rgb(80, 73, 73);
             /* background-color: rgb(185, 181, 181); */
         }
         
@@ -15,14 +15,14 @@
             line-height: 40px;
             border-collapse: separate;
             border-spacing: 0;
-            border: 2px solid #34495e;
+            border: 2px solid #114375;
             width: 80%;
             margin: 50px auto;
             border-radius: 5px;
         }
         
         thead tr:first-child {
-            background: #127fec;
+            background: #1e83e9;
             color: #fff;
             border: none;
         }

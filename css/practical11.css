@@ -1,0 +1,125 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(59, 53, 53);
+            /* background-color: rgb(185, 181, 181); */
+        }
+        
+        table {
+            text-align: left;
+            line-height: 40px;
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 2px solid #34495e;
+            width: 80%;
+            margin: 50px auto;
+            border-radius: 5px;
+        }
+        
+        thead tr:first-child {
+            background: #127fec;
+            color: #fff;
+            border: none;
+        }
+        
+        thead tr th:last-child {
+            text-align: center;
+        }
+        
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 15%;
+            text-align: center;
+        }
+        
+        th:nth-child(4),
+        td:nth-child(4) {
+            width: 16%;
+            text-align: center;
+        }
+        
+        th:nth-child(5),
+        td:nth-child(5) {
+            width: 10%;
+            text-align: center;
+        }
+        
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 50% !important;
+            padding-right: 20px;
+        }
+        
+        th:nth-child(2) {
+            text-align: center;
+        }
+        
+        th:first-child,
+        td:first-child {
+            width: 7%;
+            text-align: center;
+        }
+        
+        th {
+            font-weight: bold;
+        }
+        
+        thead tr:last-child th {
+            border-bottom: 3px solid rgb(88, 86, 86);
+        }
+        
+        tbody tr:hover {
+            background-color: #f2f2f2;
+            cursor: default;
+        }
+        
+        tbody tr:last-child td {
+            border: none;
+        }
+        
+        tbody td {
+            border-bottom: 1px solid #ddd;
+        }
+        
+        td:last-child {
+            text-align: center;
+        }
+        
+        .button {
+            color: #aaa;
+            cursor: pointer;
+            vertical-align: middle;
+            margin-top: -4px;
+        }
+        
+        .edit:hover {
+            color: #4c9eeb;
+        }
+        
+        .delete:hover {
+            color: #dc2a2a;
+        }
+        
+        td.checked {
+            color: green;
+        }
+        
+        td.unchecked {
+            color: red;
+        }
+        
+        a {
+            color: rgb(89, 199, 226);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            color: blue;
+            font-weight: 600;
+        }

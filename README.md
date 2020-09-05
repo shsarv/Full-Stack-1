@@ -28,11 +28,11 @@ click to see live----[https://shsarv.github.io/Full-Stack-1/](https://shsarv.git
 
 7. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical7.html)
 
-8. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical8.html)
+8. [Create a Web Page having Fixed Navigation Bar with the defined content.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical8.html)
 
-9. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical9.html)
+9. [Create a Complete Responsive webpage using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical9.html)
 
-10. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical10.html)
+10. [Create a Complete Responsive Side-bar using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical10.html)
 
 11. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical11.html)
 12. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)

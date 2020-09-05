@@ -34,5 +34,5 @@ click to see live----[https://shsarv.github.io/Full-Stack-1/](https://shsarv.git
 
 10. [Create a Complete Responsive Side-bar using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical10.html)
 
-11. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical11.html)
-12. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+11. [Create a Table that represent Live Practical Book Records .](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical11.html)
+12. [Create a Custom Price Table Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)

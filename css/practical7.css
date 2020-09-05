@@ -1,0 +1,149 @@
+.container {
+    margin: auto;
+}
+
+.header {
+    background-color: gray;
+    width: auto;
+    padding: 0.5em;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: white solid 5px;
+}
+
+.banner {
+    background-color: turquoise;
+    height: 750px;
+    padding: 0.5em;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: white solid 5px;
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 15px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-1 {
+    justify-content: center;
+    align-items: center;
+    /* border: red solid 3px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section-1 div {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px 10px 40px;
+}
+
+.section-2 {
+    justify-content: center;
+    align-items: center;
+    /* border: red solid 3px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section-2:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left-sidebar {
+    width: 50%;
+    /* border: solid green; */
+    height: 500px;
+    float: left;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.right-sidebar {
+    width: 48%;
+    /* border: solid blue; */
+    /* height: 515px; */
+    float: right;
+    /* Code to Reorder the Elements */
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    width: 100%;
+    height: 156.5px;
+    background-color: rgb(34, 224, 91);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.section-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-3:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.div-part {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 30px 10px 30px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    padding: 5px;
+}
+
+.footer {
+    background-color: orchid;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    color: white;
+}

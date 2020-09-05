@@ -25,3 +25,5 @@ click to see live----[https://shsarv.github.io/Full-Stack-1/](https://shsarv.git
 
 
 6.  [Create some layout using CSS Layout properties](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical6.html)
+
+7. [Create a div layout using css property.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical7.html)

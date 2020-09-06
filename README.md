@@ -9,6 +9,8 @@ click to see live----[https://shsarv.github.io/Full-Stack-1/](https://shsarv.git
 
 ## list of practicals:
 
+**link refers to Corresponding Source Code.**
+
 1.  [Create a web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical1.html)
 
 
@@ -36,3 +38,10 @@ click to see live----[https://shsarv.github.io/Full-Stack-1/](https://shsarv.git
 
 11. [Create a Table that represent Live Practical Book Records .](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical11.html)
 12. [Create a Custom Price Table Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    min-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+}
+
+.wrapper {
+    width: 600px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.custom-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.basic {
+    background-color: #c1dcb7;
+}
+
+.plus {
+    background-color: #bad6c8;
+}
+
+.deluxe {
+    background-color: #bbd3dc;
+}
+
+.pro {
+    background-color: #d5e4bc;
+}
+
+.custom-table td,
+.custom-table th {
+    width: 150px;
+    padding: 8px 5px;
+    text-align: center;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+
+.custom-table th {
+    height: 70px;
+    color: #64548f;
+    font-size: 28px;
+}
+
+
+/* i {
+    font-size: 28px;
+    color: #64548f;
+} */
+
+tbody tr:nth-child(odd) {
+    background-color: #edf3e2;
+}
+
+tfoot tr {
+    line-height: 70px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #1928b3;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: red;
+    transition: 1s;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-times {
+    color: red;
+}
+
+h2 {
+    color: rgb(62, 63, 62);
+    margin-bottom: 10px;
+}

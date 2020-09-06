@@ -34,6 +34,11 @@
 
 9. [Create a Complete Responsive webpage using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical9.html)
 
+
+
+
+
+
 10. [Create a Complete Responsive Side-bar using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical10.html)
 
 11. [Create a Table that represent Live Practical Book Records .](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical11.html)
@@ -44,4 +49,14 @@
 
 
 
+
+
+
+<br>
+
+### References
+
+* [Beta-labs](https://www.beta-labs.in/)
+* [pankaj sir](https://github.com/pankkap)
+* [W3Schools](https://www.w3schools.com/)
 

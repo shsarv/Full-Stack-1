@@ -1,0 +1,460 @@
+                                * {
+                                    margin: 0px;
+                                    padding: 0px;
+                                    box-sizing: border-box;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .container {
+                                    display: flex;
+                                    padding: 10px;
+                                    justify-content: space-evenly;
+                                    margin-top: 70px;
+                                }
+                                
+                                h1 {
+                                    text-align: center;
+                                    font-weight: bolder;
+                                    margin: 20px 0 10px;
+                                    color: rgba(92, 89, 89, 0.979);
+                                    text-shadow: rgb(11, 236, 180) 2px 3px 3px;
+                                    font-variant: small-caps;
+                                    font-size: 50px;
+                                }
+                                
+                                .first-template {
+                                    width: 28%;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 1px 1px grey;
+                                    background: rgba(241, 240, 239, 0.5);
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
+                                }
+                                
+                                .first-template .first-header {
+                                    background: linear-gradient(to bottom right, rgb(235, 139, 139), rgb(238, 245, 140), rgb(141, 243, 167), rgb(153, 136, 248), rgb(240, 99, 245));
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 0.5rem;
+                                    border-radius: 10px 10px 0 0;
+                                    -webkit-border-radius: 10px 10px 0 0;
+                                    -moz-border-radius: 10px 10px 0 0;
+                                    -ms-border-radius: 10px 10px 0 0;
+                                    -o-border-radius: 10px 10px 0 0;
+                                }
+                                
+                                .first-template .first-header h2 {
+                                    margin: 20px;
+                                    font-size: 35px;
+                                    color: rgb(5, 0, 0);
+                                }
+                                
+                                .first-template .first-header .icons {
+                                    margin: 10px;
+                                    color: rgb(93, 3, 110);
+                                    font-size: 45px;
+                                }
+                                
+                                .first-template .first-header .icons i {
+                                    margin-right: 1rem;
+                                }
+                                
+                                .first-template .first-input-section {
+                                    margin-top: 20px;
+                                    padding: 0px 10px 20px;
+                                }
+                                
+                                .first-template .first-input-section div {
+                                    color: grey;
+                                    margin-bottom: 5px;
+                                }
+                                
+                                .first-template .first-input-section .input-name {
+                                    margin-top: 1rem;
+                                }
+                                
+                                .first-template .first-input-section input {
+                                    background: transparent;
+                                    width: 100%;
+                                    border-top: none;
+                                    border-left: none;
+                                    border-right: none;
+                                    margin-top: 0.5rem;
+                                }
+                                
+                                .first-template .first-input-section .forgot {
+                                    margin-top: 0.8rem;
+                                    text-align: right;
+                                    font-size: small;
+                                }
+                                
+                                .first-template .first-input-section .forgot a {
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    color: rgb(88, 195, 245);
+                                }
+                                
+                                .first-template .first-input-section .forgot a:hover {
+                                    text-decoration: underline;
+                                    font-weight: bolder;
+                                    color: rgb(250, 127, 148);
+                                }
+                                
+                                .first-template .submit-section {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: left;
+                                }
+                                
+                                .first-template .submit-section input {
+                                    background: rgb(5, 144, 236);
+                                    color: white;
+                                    padding: 10px 25px;
+                                    border-radius: 10px;
+                                    margin-left: 7px;
+                                    border: none;
+                                    font-size: 20px;
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
+                                }
+                                
+                                .first-template .submit-section input:hover {
+                                    background: rgb(40, 5, 236);
+                                }
+                                
+                                .first-template .submit-section label {
+                                    color: grey;
+                                    font-size: small;
+                                    margin-left: 2rem;
+                                }
+                                
+                                .first-template .submit-section label a {
+                                    text-decoration: none;
+                                    color: rgb(2, 82, 13);
+                                }
+                                
+                                .first-template .submit-section label a:hover {
+                                    text-decoration: none;
+                                    color: rgb(12, 238, 42);
+                                }
+                                
+                                .second-template {
+                                    width: 28%;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 2px 1px 2px grey;
+                                    background-color: rgb(187, 187, 247);
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
+                                }
+                                
+                                .second-template .first-header {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 10px;
+                                }
+                                
+                                .second-template .first-header h2 {
+                                    margin: 20px;
+                                    font-size: 35px;
+                                    font-weight: bold;
+                                    color: rgb(9, 9, 124);
+                                }
+                                
+                                .second-template .first-input-section {
+                                    margin-top: 20px;
+                                    padding: 0px 10px 20px;
+                                }
+                                
+                                .second-template .first-input-section div {
+                                    color: grey;
+                                    margin-bottom: 10px;
+                                }
+                                
+                                .second-template .first-input-section .input-name {
+                                    margin-top: 1rem;
+                                }
+                                
+                                .second-template .first-input-section .input {
+                                    background: transparent;
+                                    width: 100%;
+                                    border-top: none;
+                                    border-left: none;
+                                    border-right: none;
+                                    margin-top: 0.5rem;
+                                }
+                                
+                                .second-template .first-input-section .forgot {
+                                    display: block;
+                                    font-size: small;
+                                    margin-top: 0.4rem;
+                                }
+                                
+                                .second-template .first-input-section .forgot input {
+                                    margin: 0px;
+                                    padding: 0px;
+                                    margin-top: 0.4rem;
+                                }
+                                
+                                .second-template .submit-section {
+                                    display: flex;
+                                    /* justify-content: space-around; */
+                                    align-items: center;
+                                }
+                                
+                                .second-template .submit-section input {
+                                    background: rgb(16, 1, 46);
+                                    color: white;
+                                    padding: 10px 20px;
+                                    border-radius: 15px;
+                                    margin: 10px;
+                                    border: none;
+                                    font-size: 20px;
+                                    -webkit-border-radius: 15px;
+                                    -moz-border-radius: 15px;
+                                    -ms-border-radius: 15px;
+                                    -o-border-radius: 15px;
+                                }
+                                
+                                .second-template .submit-section input:hover {
+                                    background: rgb(106, 47, 243);
+                                    box-shadow: rgb(119, 190, 248) 2px 2px 2px 2px;
+                                }
+                                
+                                .second-template .submit-section label {
+                                    color: grey;
+                                    font-size: 12px;
+                                }
+                                
+                                .second-template .submit-section label a {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                                
+                                .second-template .icons {
+                                    background: rgba(66, 65, 65, 0.7);
+                                    color: white;
+                                    font-size: 45px;
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 30px;
+                                    border-radius: 0 0 10px 10px;
+                                    -webkit-border-radius: 0 0 10px 10px;
+                                    -moz-border-radius: 0 0 10px 10px;
+                                    -ms-border-radius: 0 0 10px 10px;
+                                    -o-border-radius: 0 0 10px 10px;
+                                }
+                                
+                                .second-template .icons i {
+                                    margin: 10px;
+                                    margin-right: 20px;
+                                }
+                                
+                                .second-template .icons i:nth-child(1):hover {
+                                    color: #dd4b39;
+                                }
+                                
+                                .second-template .icons i:nth-child(2):hover {
+                                    color: #55acee;
+                                }
+                                
+                                .second-template .icons i:nth-child(3):hover {
+                                    color: #3b5999;
+                                    /* background-color: white; */
+                                }
+                                
+                                .third-template {
+                                    width: 28%;
+                                    border-radius: 5px;
+                                    box-shadow: 2px 2px 2px 1px rgb(148, 147, 147);
+                                    background-color: rgb(225, 248, 225);
+                                }
+                                
+                                .third-template .first-header {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 10px;
+                                }
+                                
+                                .third-template .first-header h2 {
+                                    margin: 20px;
+                                    font-size: 35px;
+                                    color: rgb(3, 97, 35);
+                                }
+                                
+                                .third-template .first-input-section {
+                                    padding: 10px;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                }
+                                
+                                .third-template .first-input-section div {
+                                    color: grey;
+                                    margin-bottom: 10px;
+                                }
+                                
+                                .third-template .first-input-section label {
+                                    color: rgb(3, 97, 35);
+                                }
+                                
+                                .third-template .first-input-section input {
+                                    background: transparent;
+                                    width: 100%;
+                                    border-top: none;
+                                    border-left: none;
+                                    border-right: none;
+                                    margin-top: 0.5rem;
+                                }
+                                
+                                .third-template .first-input-section .input-name {
+                                    margin-top: 1rem;
+                                }
+                                
+                                .third-template .first-input-section .forgot {
+                                    text-align: right;
+                                    font-size: small;
+                                    margin-top: 0.7rem;
+                                }
+                                
+                                .third-template .submit-section {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                
+                                .third-template .submit-section input {
+                                    background: rgb(3, 136, 47);
+                                    color: white;
+                                    padding: 10px;
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    border-radius: 20px;
+                                    margin: 10px;
+                                    border: none;
+                                    font-size: 20px;
+                                }
+                                
+                                .third-template .submit-section input:hover {
+                                    background: rgb(65, 201, 95);
+                                    box-shadow: rgb(119, 248, 162) 2px 2px 2px 2px;
+                                }
+                                
+                                .third-template .submit-section label {
+                                    color: grey;
+                                    font-size: small;
+                                }
+                                
+                                .third-template .first-input-section .forgot a {
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    color: rgb(49, 4, 153);
+                                }
+                                
+                                .third-template .first-input-section .forgot a:hover {
+                                    text-decoration: underline;
+                                    font-weight: bolder;
+                                    color: rgb(97, 7, 15);
+                                }
+                                
+                                .third-template .submit-section label a {
+                                    text-decoration: none;
+                                    color: rgb(37, 38, 68);
+                                }
+                                
+                                .third-template .icons {
+                                    font-size: 30px;
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 20px 15;
+                                }
+                                
+                                .third-template .icons i {
+                                    margin: 10px;
+                                    box-shadow: 2px 2px 2px 2px grey;
+                                    padding: 10px 15px;
+                                    border-radius: 20px;
+                                    -webkit-border-radius: 20px;
+                                    -moz-border-radius: 20px;
+                                    -ms-border-radius: 20px;
+                                    -o-border-radius: 20px;
+                                }
+                                
+                                .third-template .icons i:nth-child(1):hover {
+                                    background-color: #dd4b39;
+                                    color: white;
+                                }
+                                
+                                .third-template .icons i:nth-child(2):hover {
+                                    background-color: #55acee;
+                                    color: white;
+                                }
+                                
+                                .third-template .icons i:nth-child(3):hover {
+                                    background-color: #3b5999;
+                                    color: white;
+                                }
+                                
+                                @media (max-width:850px) {
+                                    .container {
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding: 10px;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-top: 100px;
+                                    }
+                                    .first-template {
+                                        width: 80%;
+                                        margin: 30px;
+                                        border-radius: 5px;
+                                        box-shadow: 1px 1px 1px 1px grey;
+                                        background: rgba(238, 233, 222, 0.5);
+                                    }
+                                    .first-template .submit-section {
+                                        margin-bottom: 30px;
+                                    }
+                                    .third-template {
+                                        width: 80%;
+                                        margin: 30px;
+                                        border-radius: 5px;
+                                        box-shadow: 1px 1px 1px 1px grey;
+                                        background-color: honeydew;
+                                    }
+                                    .third-template .icons {
+                                        margin-bottom: 30px;
+                                    }
+                                    .second-template {
+                                        width: 80%;
+                                        margin: 30px;
+                                        border-radius: 5px;
+                                        box-shadow: 1px 1px 1px 1px grey;
+                                        background-color: ghostwhite;
+                                    }
+                                    .second-template .submit-section {
+                                        margin-bottom: 20px;
+                                    }
+                                }
+                                
+                                .first-template .first-header .icons .fa-google-plus-official:hover {
+                                    color: #dd4b39;
+                                }
+                                
+                                .first-template .first-header .icons .fa-twitter-square:hover {
+                                    color: #55acee;
+                                }
+                                
+                                .first-template .first-header .icons .fa-facebook-square:hover {
+                                    color: #3b5999;
+                                }

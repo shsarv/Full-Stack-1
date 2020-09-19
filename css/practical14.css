@@ -5,6 +5,14 @@
                                     font-family: Arial, Helvetica, sans-serif;
                                 }
                                 
+                                *:focus {
+                                    outline: none;
+                                }
+                                
+                                body {
+                                    background-color: radial-gradient(rgb(194, 237, 243), rgb(139, 230, 241), rgb(62, 226, 238));
+                                }
+                                
                                 .container {
                                     display: flex;
                                     padding: 10px;
@@ -17,15 +25,14 @@
                                     font-weight: bolder;
                                     margin: 20px 0 10px;
                                     color: rgba(92, 89, 89, 0.979);
-                                    text-shadow: rgb(11, 236, 180) 2px 3px 3px;
-                                    font-variant: small-caps;
+                                    text-shadow: rgb(228, 11, 236) 2px 3px 3px;
                                     font-size: 50px;
                                 }
                                 
                                 .first-template {
                                     width: 28%;
                                     border-radius: 10px;
-                                    box-shadow: 1px 1px 1px 1px grey;
+                                    box-shadow: 1px 2px 1px 2px grey;
                                     background: rgba(241, 240, 239, 0.5);
                                     -webkit-border-radius: 10px;
                                     -moz-border-radius: 10px;
@@ -34,7 +41,7 @@
                                 }
                                 
                                 .first-template .first-header {
-                                    background: linear-gradient(to bottom right, rgb(235, 139, 139), rgb(238, 245, 140), rgb(141, 243, 167), rgb(153, 136, 248), rgb(240, 99, 245));
+                                    background: linear-gradient(to bottom right, rgb(235, 139, 139), rgb(229, 245, 140), rgb(141, 243, 167), rgb(153, 136, 248), rgb(240, 99, 245));
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
@@ -54,7 +61,7 @@
                                 }
                                 
                                 .first-template .first-header .icons {
-                                    margin: 10px;
+                                    margin: 10px 10px 20px;
                                     color: rgb(93, 3, 110);
                                     font-size: 45px;
                                 }
@@ -74,7 +81,9 @@
                                 }
                                 
                                 .first-template .first-input-section .input-name {
-                                    margin-top: 1rem;
+                                    margin-top: 2rem;
+                                    font-weight: bold;
+                                    color: rgb(179, 5, 5);
                                 }
                                 
                                 .first-template .first-input-section input {
@@ -84,6 +93,7 @@
                                     border-left: none;
                                     border-right: none;
                                     margin-top: 0.5rem;
+                                    font-size: 15px;
                                 }
                                 
                                 .first-template .first-input-section .forgot {
@@ -148,7 +158,7 @@
                                     width: 28%;
                                     border-radius: 10px;
                                     box-shadow: 1px 2px 1px 2px grey;
-                                    background-color: rgb(187, 187, 247);
+                                    background-color: rgb(192, 233, 245);
                                     -webkit-border-radius: 10px;
                                     -moz-border-radius: 10px;
                                     -ms-border-radius: 10px;
@@ -176,21 +186,23 @@
                                 }
                                 
                                 .second-template .first-input-section div {
-                                    color: grey;
+                                    color: rgb(2, 84, 151);
                                     margin-bottom: 10px;
                                 }
                                 
                                 .second-template .first-input-section .input-name {
                                     margin-top: 1rem;
+                                    font-weight: bold;
                                 }
                                 
                                 .second-template .first-input-section .input {
                                     background: transparent;
                                     width: 100%;
-                                    border-top: none;
-                                    border-left: none;
-                                    border-right: none;
                                     margin-top: 0.5rem;
+                                    border-width: 0px;
+                                    border: none 0;
+                                    box-shadow: none;
+                                    border-bottom: 1px solid rgb(111, 111, 233);
                                 }
                                 
                                 .second-template .first-input-section .forgot {
@@ -233,15 +245,21 @@
                                 .second-template .submit-section label {
                                     color: grey;
                                     font-size: 12px;
+                                    margin-left: 1.8rem;
                                 }
                                 
                                 .second-template .submit-section label a {
                                     text-decoration: none;
-                                    color: black;
+                                    color: rgb(248, 6, 188);
+                                }
+                                
+                                .second-template .submit-section label a:hover {
+                                    text-decoration: dashed;
+                                    color: rgb(71, 6, 248);
                                 }
                                 
                                 .second-template .icons {
-                                    background: rgba(66, 65, 65, 0.7);
+                                    background: rgba(88, 87, 88, 0.7);
                                     color: white;
                                     font-size: 45px;
                                     display: flex;
@@ -252,6 +270,7 @@
                                     -moz-border-radius: 0 0 10px 10px;
                                     -ms-border-radius: 0 0 10px 10px;
                                     -o-border-radius: 0 0 10px 10px;
+                                    margin-top: 10px;
                                 }
                                 
                                 .second-template .icons i {
@@ -275,7 +294,7 @@
                                 .third-template {
                                     width: 28%;
                                     border-radius: 5px;
-                                    box-shadow: 2px 2px 2px 1px rgb(148, 147, 147);
+                                    box-shadow: 1px 2px 1px 2px gray;
                                     background-color: rgb(225, 248, 225);
                                 }
                                 
@@ -315,10 +334,12 @@
                                     border-left: none;
                                     border-right: none;
                                     margin-top: 0.5rem;
+                                    border-bottom: 1px solid rgb(50, 235, 164);
                                 }
                                 
                                 .third-template .first-input-section .input-name {
                                     margin-top: 1rem;
+                                    font-weight: bold;
                                 }
                                 
                                 .third-template .first-input-section .forgot {
@@ -337,11 +358,9 @@
                                 .third-template .submit-section input {
                                     background: rgb(3, 136, 47);
                                     color: white;
-                                    padding: 10px;
-                                    padding-left: 20px;
-                                    padding-right: 20px;
+                                    padding: 10px 35%;
                                     border-radius: 20px;
-                                    margin: 10px;
+                                    margin: 10px 10px 20px;
                                     border: none;
                                     font-size: 20px;
                                 }
@@ -389,6 +408,7 @@
                                     -moz-border-radius: 20px;
                                     -ms-border-radius: 20px;
                                     -o-border-radius: 20px;
+                                    margin-top: 20px;
                                 }
                                 
                                 .third-template .icons i:nth-child(1):hover {
@@ -416,7 +436,7 @@
                                         margin-top: 100px;
                                     }
                                     .first-template {
-                                        width: 80%;
+                                        width: 70%;
                                         margin: 30px;
                                         border-radius: 5px;
                                         box-shadow: 1px 1px 1px 1px grey;
@@ -426,7 +446,7 @@
                                         margin-bottom: 30px;
                                     }
                                     .third-template {
-                                        width: 80%;
+                                        width: 70%;
                                         margin: 30px;
                                         border-radius: 5px;
                                         box-shadow: 1px 1px 1px 1px grey;
@@ -436,10 +456,10 @@
                                         margin-bottom: 30px;
                                     }
                                     .second-template {
-                                        width: 80%;
+                                        width: 70%;
                                         margin: 30px;
                                         border-radius: 5px;
-                                        box-shadow: 1px 1px 1px 1px grey;
+                                        box-shadow: 1px 2px 2px 1px grey;
                                         background-color: ghostwhite;
                                     }
                                     .second-template .submit-section {

@@ -34,15 +34,17 @@
 
 9. [Create a Complete Responsive webpage using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical9.html)
 
-
-
-
-
-
 10. [Create a Complete Responsive Side-bar using CSS properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical10.html)
 
 11. [Create a Table that represent Live Practical Book Records .](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical11.html)
+
 12. [Create a Custom Price Table Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+
+13. [Create a Responsive Footer Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+
+14. [Create given Responsive Form Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+
+15. [Create a Counter Page using JavaScript as per the attached Templates.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
 
 
 

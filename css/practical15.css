@@ -15,68 +15,41 @@ body {
 .container {
     margin: 100px auto;
     text-align: center;
+    height: 60vh;
 }
 
-button {
-    padding: 20px;
-    background: transparent;
-    text-shadow: 1px 1px 1px #44ee68;
-    font-family: "Lato", sans-serif;
-    font-size: 30px;
-    color: rgb(212, 216, 218);
+.button {
+    padding: 20px 40px;
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
     border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 30px;
 }
 
-#decrement {
-    padding: 20px 30px;
-    border: rgb(49, 9, 226) 2px solid;
-    background-color: rgba(247, 8, 8, 0.5);
-    margin-right: 40px;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
+.button:hover {
+    background-color: #3e8e41
 }
 
-#decrement:hover {
-    padding: 20px 30px;
-    border: rgb(208, 243, 13) 2px solid;
-    background-color: rgba(172, 221, 37, 0.5);
-    box-shadow: 1px 2px 2px 2px grey;
-}
-
-#increment {
-    padding: 20px 30px;
-    border: rgb(49, 9, 226) 2px solid;
-    background-color: rgba(8, 247, 48, 0.5);
-    margin-left: 40px;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-}
-
-#increment:hover {
-    padding: 20px 30px;
-    border: rgb(243, 13, 193) 2px solid;
-    background-color: rgba(27, 163, 187, 0.5);
-    box-shadow: 1px 2px 2px 2px rgb(236, 90, 90);
-}
-
-.fa-minus:hover {
-    color: red;
-}
-
-.fa-plus:hover {
-    color: rgb(21, 255, 0);
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 #counter {
-    padding: 20px 30px;
-    font-size: 50px;
+    padding: 0px 30px;
+    font-size: 60px;
     margin-top: 10px;
+    display: inline;
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #ec722b;
 }
 
 .footer {
@@ -90,6 +63,7 @@ h3 {
     font-weight: bolder;
     color: white;
     font-size: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 15vh;
     font-family: 'Cinzel Decorative';
+    text-shadow: 2px 2px 8px #FF0000;
 }

@@ -1,3 +1,4 @@
+// Initializing Counter
 var count = 0;
 
 // disabling decrement button for count==0.

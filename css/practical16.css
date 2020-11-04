@@ -1,0 +1,43 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(90deg, rgb(170, 170, 231), rgb(8, 135, 173), blue);
+        }
+        
+        h1 {
+            font-size: 40px;
+            font-weight: bolder;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 1rem;
+            margin: 3rem auto 1rem;
+            justify-content: center;
+            color: white;
+            text-shadow: violet 4px 3px 5px;
+        }
+        
+        .todo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        
+        input {
+            border: none;
+            font-size: 18px;
+            padding: 0.5rem;
+        }
+        
+        button {
+            font-size: 20px;
+            border: none;
+            background-color: rgb(20, 102, 38);
+            color: white;
+            padding: 0.5rem;
+        }

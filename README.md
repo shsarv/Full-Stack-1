@@ -3,7 +3,7 @@
 **This repository contains the list of practicals performed During learning Front-end techonologies.**
 
 
-**Live github page.**---->[https://shsarv.github.io/Full-Stack-1/](https://shsarv.github.io/Full-Stack-1/)
+**This Repo is Live at.**---->[https://shsarv.github.io/Full-Stack-1/](https://shsarv.github.io/Full-Stack-1/)
 
 
 
@@ -13,18 +13,13 @@
 
 1.  [Create a web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical1.html)
 
-
 2.  [Live Your First Web-Page on Git-Hub.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical2.html)
-
 
 3.  [Create a web page showing a basic html structure using character Entities and Span Tag.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical3.html)
 
-
 4.  [Create a Website having list of all practical and their individual practical Page links.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical4.html)
 
-
 5.  [Introduction to image link and image map.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical5.html)
-
 
 6.  [Create some layout using CSS Layout properties.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical6.html)
 
@@ -40,16 +35,13 @@
 
 12. [Create a Custom Price Table Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
 
-13. [Create a Responsive Footer Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+13. [Create a Responsive Footer Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical13.html)
 
-14. [Create given Responsive Form Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+14. [Create given Responsive Form Template.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical14.html)
 
-15. [Create a Counter Page using JavaScript as per the attached Templates.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical12.html)
+15. [Create a Counter Page using JavaScript as per the attached Templates.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical15.html)
 
-
-
-
-
+16. [Create a To-do List using JavaScript.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical16.html)
 
 
 
@@ -61,10 +53,6 @@
 * [Beta-labs](https://www.beta-labs.in/)
 * [pankaj sir](https://github.com/pankkap)
 * [W3Schools](https://www.w3schools.com/)
-
-
-
-
 
 
 

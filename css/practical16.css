@@ -1,43 +1,121 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background: linear-gradient(90deg, rgb(170, 170, 231), rgb(8, 135, 173), blue);
-        }
-        
-        h1 {
-            font-size: 40px;
-            font-weight: bolder;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            padding: 1rem;
-            margin: 3rem auto 1rem;
-            justify-content: center;
-            color: white;
-            text-shadow: violet 4px 3px 5px;
-        }
-        
-        .todo-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-        }
-        
-        input {
-            border: none;
-            font-size: 18px;
-            padding: 0.5rem;
-        }
-        
-        button {
-            font-size: 20px;
-            border: none;
-            background-color: rgb(20, 102, 38);
-            color: white;
-            padding: 0.5rem;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(168, 233, 166), rgb(64, 62, 165), rgb(173, 53, 209));
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+
+h1 {
+    color: white;
+    text-shadow: rgb(11, 231, 22) 4px 3px 5px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Abril Fatface', cursive;
+}
+
+form input,
+form button {
+    padding: 0.3rem;
+    font-size: 24px;
+    background: white;
+    outline: none;
+    border: none;
+    border-bottom: rgb(54, 3, 90) solid 4px;
+}
+
+form button {
+    color: rgb(12, 8, 231);
+    background-color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: white;
+    background-color: rgb(70, 40, 238);
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*<------------styling dynamically created classes------------> */
+
+.todo-list {
+    list-style-type: none;
+    min-width: 20%;
+}
+
+.todo {
+    background-color: white;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    display: flex;
+    margin: 1rem;
+    font-family: 'EB Garamond', serif;
+}
+
+.todo:hover {
+    box-shadow: rgb(71, 71, 71) 2px 2px 2px 2px;
+}
+
+.todo-item {
+    flex: 1;
+    margin: 0px 8px;
+}
+
+.check-btn {
+    background-color: rgb(27, 156, 16);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 14px;
+}
+
+.delete-btn {
+    background-color: rgb(247, 75, 104);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 14px;
+}
+
+.fa-check,
+.fa-trash {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.check-btn:hover {
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgb(5, 5, 5);
+}
+
+.delete-btn:hover {
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgb(5, 5, 5);
+}

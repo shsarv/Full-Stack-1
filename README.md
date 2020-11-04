@@ -51,7 +51,7 @@
 ### References
 
 * [Beta-labs](https://www.beta-labs.in/)
-* [pankaj sir](https://github.com/pankkap)
+* [pankaj Kapoor](https://github.com/pankkap)
 * [W3Schools](https://www.w3schools.com/)
 
 

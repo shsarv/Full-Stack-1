@@ -1,13 +1,18 @@
-//
+// variable 
+
 const time = document.getElementById("time");
 const greeting = document.getElementById("greeting");
 const name = document.getElementById("name");
 const dateshow = document.getElementById("dateshow");
-//
+
+//Event Listener
+
+
 name.addEventListener("keypress", setName);
 name.addEventListener("blur", setName);
 
-//
+// Function to show time
+
 function showtime() {
     let today = new Date();
 
@@ -27,12 +32,15 @@ function showtime() {
 
 
 }
-//
+
+// Function to add Zero to time to always make it in two digit format
 
 function addZero(n) {
     return (parseInt(n, 10) < 10 ? "0" : "") + n;
 };
-//
+
+// Function to take name from local Storage.
+
 function getName() {
     if (localStorage.getItem("myName") === null) {
         name.innerHTML = "YOUR NAME";
@@ -40,6 +48,8 @@ function getName() {
         name.innerHTML = localStorage.getItem("myName");
     }
 };
+
+// Function to set name in local Storage.
 
 function setName(e) {
     if (e.type === "keypress") {
@@ -50,12 +60,15 @@ function setName(e) {
     } else { localStorage.setItem('myName', e.target.innerHTML); }
 };
 
+// Function to show greeting.
+
 function showGreeting() {
     let today = new Date();
     let hour = today.getHours();
     if (hour < 12 && hour > 6) {
         const greet = "good Morning";
         let i = 0
+            // make grreting in typing form
         const typing = () => {
             if (i < greet.length) {
                 greeting.innerHTML += greet.charAt(i);
@@ -65,13 +78,17 @@ function showGreeting() {
             }
         }
         typing();
+
         // greeting.innerHTML = "Good Morning";
+
         document.body.style.backgroundImage = "url('../img/goodmorning.jpg')";
         document.getElementById('time').style.color = "#6600cc";
         document.getElementById('greeting').style.color = "#00ccff";
         document.getElementById('name').style.color = "#0033cc";
     } else if (hour >= 12 && hour < 16) {
+
         // greeting.innerHTML = "Good AfterNoon";
+
         const greet = "good Afternoon";
         let i = 0
         const typing = () => {
@@ -99,14 +116,18 @@ function showGreeting() {
             }
         }
         typing();
+
         // greeting.innerHTML = "Good Evening";
+
         document.body.style.backgroundImage = "url('../img/goodevening.jpg')";
         document.getElementById('time').style.color = "white";
         document.getElementById('greeting').style.color = "#ffff00";
         document.getElementById('name').style.color = "#0000ff";
 
     } else {
+
         //greeting.innerHTML = "Good Night";
+
         const greet = "good Night";
         let i = 0
         const typing = () => {
@@ -127,6 +148,9 @@ function showGreeting() {
 
 };
 
+// Function to Display day date, month and year.
+
+
 function showDate() {
     let today = new Date();
     let datename = today.getUTCDate();
@@ -138,7 +162,7 @@ function showDate() {
     dateshow.innerHTML = `${dayName}<span> , <span>${datename}<span>-<span>${monthname}<span>-<span>${yearname}`;
 }
 
-
+// Function Calling
 
 showtime();
 getName();;

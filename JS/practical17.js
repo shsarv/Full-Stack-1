@@ -143,6 +143,7 @@ function showGreeting() {
         document.getElementById('time').style.color = "white";
         document.getElementById('greeting').style.color = "orange";
         document.getElementById('name').style.color = "#00ffff";
+        document.getElementById('dateshow').style.color = "white";
     }
 
 

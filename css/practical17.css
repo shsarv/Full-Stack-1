@@ -12,6 +12,8 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: 'Quicksand', sans-serif;
+    background-size: cover;
+    background-position: center;
 }
 
 #time {

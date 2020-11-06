@@ -54,30 +54,76 @@ function showGreeting() {
     let today = new Date();
     let hour = today.getHours();
     if (hour < 12 && hour > 6) {
-        greeting.innerHTML = "Good Morning";
+        const greet = "good Morning";
+        let i = 0
+        const typing = () => {
+            if (i < greet.length) {
+                greeting.innerHTML += greet.charAt(i);
+                i++;
+
+                setTimeout(typing, 500);
+            }
+        }
+        typing();
+        // greeting.innerHTML = "Good Morning";
         document.body.style.backgroundImage = "url('../img/goodmorning.jpg')";
         document.getElementById('time').style.color = "#6600cc";
         document.getElementById('greeting').style.color = "#00ccff";
         document.getElementById('name').style.color = "#0033cc";
     } else if (hour >= 12 && hour < 16) {
-        greeting.innerHTML = "Good AfterNoon";
+        // greeting.innerHTML = "Good AfterNoon";
+        const greet = "good Afternoon";
+        let i = 0
+        const typing = () => {
+            if (i < greet.length) {
+                greeting.innerHTML += greet.charAt(i);
+                i++;
+
+                setTimeout(typing, 150);
+            }
+        }
+        typing();
         document.body.style.backgroundImage = "url('../img/goodafternoon.jpg')";
         document.getElementById('time').style.color = "white";
         document.getElementById('greeting').style.color = "#009900";
         document.getElementById('name').style.color = "#0000ff";
     } else if (hour >= 16 && hour < 20) {
-        greeting.innerHTML = "Good Evening";
+        const greet = "good evening";
+        let i = 0
+        const typing = () => {
+            if (i < greet.length) {
+                greeting.innerHTML += greet.charAt(i);
+                i++;
+
+                setTimeout(typing, 150);
+            }
+        }
+        typing();
+        // greeting.innerHTML = "Good Evening";
         document.body.style.backgroundImage = "url('../img/goodevening.jpg')";
         document.getElementById('time').style.color = "white";
         document.getElementById('greeting').style.color = "#ffff00";
         document.getElementById('name').style.color = "#0000ff";
+
     } else {
-        greeting.innerHTML = "Good Night";
+        //greeting.innerHTML = "Good Night";
+        const greet = "good Night";
+        let i = 0
+        const typing = () => {
+            if (i < greet.length) {
+                greeting.innerHTML += greet.charAt(i);
+                i++;
+
+                setTimeout(typing, 500);
+            }
+        }
+        typing();
         document.body.style.backgroundImage = "url('../img/goodnight.jpg')";
         document.getElementById('time').style.color = "white";
         document.getElementById('greeting').style.color = "orange";
         document.getElementById('name').style.color = "#00ffff";
     }
+
 
 };
 
@@ -91,6 +137,8 @@ function showDate() {
     var dayName = days[today.getDay()];
     dateshow.innerHTML = `${dayName}<span> , <span>${datename}<span>-<span>${monthname}<span>-<span>${yearname}`;
 }
+
+
 
 showtime();
 getName();;

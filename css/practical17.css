@@ -29,3 +29,39 @@ h2 {
     font-size: 3rem;
     opacity: 0.6;
 }
+
+#greeting {
+    color: rgb(203, 235, 62);
+    font-size: 2.8rem;
+    transform: translateX(0%);
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    white-space: pre-wrap;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+
+#greeting::after {
+    content: '';
+    width: 5px;
+    height: 2.8rem;
+    background-color: rgb(204, 236, 20);
+    position: absolute;
+    animation: blinking 1s 3s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: rgb(189, 241, 92)
+    }
+    50% {
+        background-color: transparent
+    }
+    100% {
+        background-color: rgb(220, 245, 180)
+    }
+}

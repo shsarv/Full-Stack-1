@@ -68,7 +68,7 @@ function showGreeting() {
     if (hour < 12 && hour > 6) {
         const greet = "good Morning";
         let i = 0
-            // make grreting in typing form
+            // make greeting in typing form.
         const typing = () => {
             if (i < greet.length) {
                 greeting.innerHTML += greet.charAt(i);

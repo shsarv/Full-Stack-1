@@ -40,7 +40,7 @@ function checkRequired(inputArray) {
 }
 
 function checkLengthu(input, min, max) {
-    const ros = /[ ^a-z]/;
+    // const ros = /[ ^a-z]/;
     if (input.value.length < min) {
         showError(
             input,

@@ -30,17 +30,13 @@
     
     h2 {
         text-align: center;
-        margin: 0 0 20px;
+        margin: 20px 0 10px;
+        color: rgb(3, 136, 43);
+        font-weight: bolder;
     }
     
     #head {
-        padding: 1rem;
-        background: linear-gradient(to right, rgb(15, 236, 151), rgb(5, 187, 172), rgb(2, 95, 67), rgb(3, 55, 133));
-        border-radius: 10px 10px 0px 0px;
-        -webkit-border-radius: 10px 10px 0px 0px;
-        -moz-border-radius: 10px 10px 0px 0px;
-        -ms-border-radius: 10px 10px 0px 0px;
-        -o-border-radius: 10px 10px 0px 0px;
+        text-align: center;
     }
     
     .form {

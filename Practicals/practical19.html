@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 19 || Multi-Step Form</title>
+    <link rel="stylesheet" href="../css/practical19.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="progress"></div>
+            <div class="col"><small>Step-1</small></div>
+            <div class="col"><small>Step-2</small></div>
+            <div class="col"><small>Step-3</small></div>
+        </div>
+        <form id="form1">
+            <h3>Create Account</h3>
+            <input type="text" placeholder="Enter Email">
+            <input type="password" placeholder="Enter Password">
+            <input type="password" placeholder="Confirm Password">
+            <div class="btn-box">
+                <button type="button" id="next1">Next</button>
+            </div>
+        </form>
+
+        <form id="form2">
+            <h3>Social Links</h3>
+            <input type="text" placeholder="Medium">
+            <input type="text" placeholder="GitHub">
+            <input type="text" placeholder="LinkedIn">
+            <div class="btn-box">
+                <button type="button" id="back1">Back</button>
+                <button type="button" id="next2">Next</button>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>Personal Information</h3>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="number" placeholder="Mobile Number">
+            <div class="btn-box">
+                <button type="button" id="back2">Back</button>
+                <button type="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="../JS/practical19.js"></script>
+</body>
+
+</html>

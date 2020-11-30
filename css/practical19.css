@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    background: radial-gradient(rgb(236, 211, 126), rgb(231, 204, 113), rgb(231, 195, 77), rgb(226, 180, 27));
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 49vh;
+    height: 55vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 49vh;
+    height: 5.5vh;
+    box-shadow: 0px 1px 6px 1px rgb(102, 102, 102);
+}
+
+.col {
+    width: 16.333vh;
+    z-index: 1;
+    color: rgb(238, 11, 11);
+    font-weight: bolder;
+    text-align: center;
+}
+
+#progress {
+    width: 17vh;
+    height: 100%;
+    position: absolute;
+    background-color: orange;
+    transition: 1.2s ease-in;
+    -webkit-transition: 1.2s ease-in;
+    -moz-transition: 1.2s ease-in;
+    -ms-transition: 1.2s ease-in;
+    -o-transition: 1.2s ease-in;
+}
+
+#progress::after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    border-left: 20px solid orange;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.container form {
+    position: absolute;
+    top: 11vh;
+    left: 5.5vh;
+    width: 38.25vh;
+    transition: 0.7s ease-in;
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 4vh;
+    font-weight: 900;
+    color: rgb(107, 4, 104);
+}
+
+#form2 {
+    left: 61.5vh;
+}
+
+#form3 {
+    left: 61.5vh;
+}
+
+form input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.btn-box {
+    margin: 30px auto;
+    text-align: center;
+}
+
+form button {
+    width: 16.4vh;
+    height: 4.8vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    outline: none;
+    box-shadow: 0 6px #999;
+}
+
+form button:active {
+    background-color: #614805;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}

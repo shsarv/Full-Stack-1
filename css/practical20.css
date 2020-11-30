@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-info {
+    min-height: 13vh;
+    margin: 0.7rem;
+}
+
+.bg-warning {
+    /* min-height: 20vh; */
+    margin: 0.7rem;
+}
+
+.bg-primary {
+    min-height: 20vh;
+    margin: 0.7rem;
+}
+
+.bg-danger {
+    min-height: 20vh;
+    margin: 0.7rem;
+}
+
+.bg-dark {
+    min-height: 10vh;
+    margin: 0.7rem;
+}

@@ -43,8 +43,12 @@
 
 16. [Create a To-do List using JavaScript.](https://github.com/shsarv/Full-Stack-1/blob/master/Practicals/practical16.html)
 
-
-
+<ol start=17>
+<li>Create a Live clock with greeting and personalised name.&#8680; &nbsp; &nbsp;<a href="Practicals/practical17.html " target="blank ">Practical-17</a></li>
+<li>Create an HTML Form and Validate it with Javascript (Client-side Programming Language). &#8680; &nbsp; &nbsp;<a href="Practicals/practical18.html " target="blank ">Practical-18</a></li>
+<li>Create an HTML page with Multi-Step Form. &#8680; &nbsp; &nbsp;<a href="Practicals/practical19.html " target="blank ">Practical-19</a></li>
+<li>Create a Responsive Layout using Bootstrap Grid System. &#8680; &nbsp; &nbsp;<a href="Practicals/practical20.html " target="blank ">Practical-20</a></li>
+</ol>
 
 <br>
 
